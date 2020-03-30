@@ -1,1 +1,24 @@
-s
+#body{
+	background-image: "backretroplata.jpg";
+}
+#lg{
+	background-color: #39FA1A;
+	color: #FFFFFF;
+}
+#menu{
+	background-color: #041002;
+}
+#tabs li{
+	color: #FFFFFF;
+}
+div[name="not"] input{
+	background-color:#39FA1A;
+	color: #FFFFFF;
+}
+#abme h2{
+	background-color: #E1DEDE;
+}
+#abme img{
+	src: "jo.png";
+}
+	
