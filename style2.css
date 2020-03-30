@@ -1,5 +1,8 @@
-#body{
-	background-image: "backretroplata.jpg";
+body{
+	background-image: url("backretroplata.jpg");
+}
+.container{
+	background-color:#FFFFFF;
 }
 #lg{
 	background-color: #39FA1A;
@@ -19,6 +22,6 @@ div[name="not"] input{
 	background-color: #E1DEDE;
 }
 #abme img{
-	src: "jo.png";
+	src: url("jo.png");
 }
 	

@@ -1,11 +1,16 @@
 $(document).ready(function(){
-      $('#sld').bxSlider();
+      $('.sld').bxSlider({
+		mode: 'fade',
+		captions: true,
+		slideWidth: 600  
+	  });
+	  $("#scrini").click(autocroll);
     });
-var imglist1=[,,];
-var imglist2=[,,];
+var imglist1=["sldpr1.jpg","sldpr2.jpg"];
+var imglist2=["sldrpg1.jpg","sldrpg2.jpg"];
 $("#abme").accordion({
 	collapsible:true;
-})
+});
 function clock(){
 	 let currentDate = new Date();
      let hours = currentDate.getHours();
@@ -61,6 +66,12 @@ function regul(){
 		nom=$("#usu").text;
 	}while(!relusu.test(usu) || usu=="");
 	$("#usu").style.backgroundColor="green";
-}		
+}
+function autoscroll(){
+	window.scrollTo(0, 0);
+}
+	$("#com").click(regul);
+	$("#com2").click(regul);
 	clock();
 	setInterval(clock, 1000);
+	
