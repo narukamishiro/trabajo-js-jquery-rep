@@ -1,11 +1,9 @@
-$(document).ready(function(){
-      $('.sld').bxSlider({
-		mode: 'fade',
-		captions: true,
-		slideWidth: 600  
-	  });
-	  $("#scrini").click(autocroll);
+$(document).ready{$( function() {
+    $( "#tabs" ).tabs({
+      collapsible: true
     });
+  } );
+};
 var imglist1=["sldpr1.jpg","sldpr2.jpg"];
 var imglist2=["sldrpg1.jpg","sldrpg2.jpg"];
 $("#abme").accordion({
@@ -70,6 +68,9 @@ function regul(){
 function autoscroll(){
 	window.scrollTo(0, 0);
 }
+$( function() {
+    $( "#tabs" ).tabs();
+  } );
 	$("#com").click(regul);
 	$("#com2").click(regul);
 	clock();

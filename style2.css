@@ -1,27 +1,72 @@
 body{
-	background-image: url("backretroplata.jpg");
+	background-image: url("bacretrorpg.jpg");
 }
-.container{
+#mi{
 	background-color:#FFFFFF;
+}
+#header{
+	display: inline;
 }
 #lg{
 	background-color: #39FA1A;
 	color: #FFFFFF;
+	display: inherit;
+	padding: 25px 50px 25px 50px;
+	align: left;
 }
-#menu{
-	background-color: #041002;
+#search{
+	inline: inherit;
+	float: right;
+	clear: both;
+	
 }
-#tabs li{
-	color: #FFFFFF;
+#tabs{
+	background-color:#0000;
+}
+#tabs ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+#tabs li {
+  float: left;
+}
+
+#tabs li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+#blg{
+	display: inline;
+}
+.row div[name="not"]{
+	display: inherit;
 }
 div[name="not"] input{
 	background-color:#39FA1A;
 	color: #FFFFFF;
 }
-#abme h2{
+.row div[name="abme"]{
+	display: inherit;
+}
+.row div[name="abme"]{
+	display: none;
+}
+.row:first-child div[name="abme"]{
+	display: inherit;
+}
+div[name="abme"] h2{
 	background-color: #E1DEDE;
 }
-#abme img{
-	src: url("jo.png");
-}
-	
+div[name="abme"] div img{
+	src: url("bacretrorpg.jpg");
